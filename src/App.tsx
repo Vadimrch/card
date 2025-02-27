@@ -1,21 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import {AppWrapper} from "app/ui/AppWrapper/AppWrapper";
+import {Card} from "features/card/Card";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-Hello
-      </div>
-
-    </>
-  )
+      <AppWrapper>
+          <Card/>
+      </AppWrapper>
+  );
 }
 
 export default App
 
-
-const StyleBtn = styled
-const
