@@ -1,12 +1,12 @@
-import {AppWrapper} from "app/ui/AppWrapper/AppWrapper";
-import {Card} from "features/card/Card";
+import './App.css';
+import {Card} from './components/Card.tsx';
 
 
 function App() {
   return (
-      <AppWrapper>
+      <div>
           <Card/>
-      </AppWrapper>
+      </div>
   );
 }
 
